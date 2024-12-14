@@ -1,3 +1,3 @@
 # calidad-verificacion-software NICOLAS ADOLFO CARDENAS PATIÑO 160004008
-Talleres calidad y verificacion del software. AB
+Talleres calidad y verificacion del software. ABs
 
