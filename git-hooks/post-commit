@@ -1,0 +1,3 @@
+#!/bin/bash
+echo "Commit realizado exitosamente en $(date)" >> .git/hooks/commit.log
+echo "Se ha registrado el commit en los logs."

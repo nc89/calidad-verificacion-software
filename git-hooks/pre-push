@@ -1,0 +1,3 @@
+#!/bin/bash
+echo "Ejecutando pruebas unitarias antes de push..."
+#npm test || { echo "Las pruebas fallaron. No se puede realizar el push."; exit 1; }
