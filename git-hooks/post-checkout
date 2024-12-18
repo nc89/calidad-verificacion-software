@@ -1,0 +1,3 @@
+#!/bin/bash
+echo "hola"
+echo "Has cambiado a la rama: $(git branch --show-current)"
