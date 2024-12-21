@@ -7,7 +7,7 @@ filterwarnings("ignore")
 import unittest
 
 
-class eis_test(unittest.TestCase):
+class Testing(unittest.TestCase):
 
 	def setUp(self):
 		self.browser = webdriver.Chrome()
