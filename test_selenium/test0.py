@@ -3,7 +3,7 @@ from selenium.webdriver.common.keys import Keys
 import unittest
 from time import sleep
 
-class eis_test(unittest.TestCase):
+class Testing(unittest.TestCase):
 
 	def setUp(self):
 		self.browser = webdriver.Chrome()
@@ -13,7 +13,6 @@ class eis_test(unittest.TestCase):
 		browser.get("https://campusvirtualunillanos.co/")
 		self.assertIn("Facebook", browser.title, msg="Titulos no coinciden")
 		
-
 	def tearDown(self):
 		self.browser.quit()
 

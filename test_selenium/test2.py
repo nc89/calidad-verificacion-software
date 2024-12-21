@@ -5,7 +5,7 @@ import unittest
 from time import sleep
 from selenium.webdriver.common.by import By
 
-class eis_test(unittest.TestCase):
+class Testing(unittest.TestCase):
 
 	def setUp(self):
 		self.browser = webdriver.Chrome()
