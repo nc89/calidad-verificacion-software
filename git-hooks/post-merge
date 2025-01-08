@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "Actualizando dependencias después de un merge exitoso..."
+#npm install
+echo "Dependencias actualizadas."

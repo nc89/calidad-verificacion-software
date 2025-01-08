@@ -1,0 +1,14 @@
+#!/bin/bash
+
+echo "Validando formato del mensaje de commit..."
+
+# Leer el contenido del archivo que contiene el mensaje del commit
+commit_message=$(cat "$1")
+
+# Verificar que el mensaje tenga al menos 10 caracteres
+if [[ ${#commit_message} -lt 10 ]]; then
+  echo "Error: El mensaje de commit debe tener al menos 10 caracteres."
+  exit 1
+fi
+
+echo "El mensaje de commit es válido."
