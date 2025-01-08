@@ -1,6 +1,6 @@
 def saludar(nombre):
 	return "Hola %s" % nombre
-
+ 
 def sumar(*args):
     resultado = 0
     for i in args:

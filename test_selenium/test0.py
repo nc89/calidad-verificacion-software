@@ -11,7 +11,7 @@ class Testing(unittest.TestCase):
 	def test_load(self):
 		browser = self.browser
 		browser.get("https://campusvirtualunillanos.co/")
-		self.assertIn("Facebook", browser.title, msg="Titulos no coinciden")
+		self.assertIn("Página Principal | Campus Virtual", browser.title, msg="Titulos no coinciden")
 		
 	def tearDown(self):
 		self.browser.quit()

@@ -16,7 +16,7 @@ class Testing(unittest.TestCase):
 		browser = self.browser
 		browser.get("https://campusvirtualunillanos.co/")
 		list = browser.find_elements(By.CLASS_NAME, 'h-100')			
-		self.assertIn("3111", list[1].find_element(By.TAG_NAME, 'h3').text, msg="Comparacion de cursos no valido")
+		self.assertIn("3114", list[1].find_element(By.TAG_NAME, 'h3').text, msg="Comparacion de cursos no valido")
 
 	def tearDown(self):
 		self.browser.quit()
